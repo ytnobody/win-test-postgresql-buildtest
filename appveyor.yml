@@ -12,7 +12,7 @@ install:
 build: off
 
 test_script:
-  - cpm install
+  - cpm install -v 
 
 cache:
   - local_action
