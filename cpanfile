@@ -1,1 +1,1 @@
-requires 'Test::PostgreSQL' => '1.23';
+requires 'Test::PostgreSQL' => '1.21';
