@@ -1,10 +1,12 @@
 init:
   - git config --global core.autocrlf input
 
+services:
+  - postgresql
+
 install:
   - choco install strawberryperl --version 5.20.1.1 -y --allow-empty-checksums
   - SET PATH=C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;%PATH%
-  - choco install postgresql
   - cpanm -n App::cpm
 
 build: off
